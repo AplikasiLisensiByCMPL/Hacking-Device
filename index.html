@@ -263,7 +263,7 @@
   <div class="phone" id="phoneUI">
     <div class="status-bar">
       <div id="clock">--:--</div>
-      <div>📶 4G 🔋83%</div>
+      <div></div>
     </div>
     <div class="address-bar">📁 Album</div>
 
@@ -273,11 +273,11 @@
 
       <div class="album-grid">
         <div class="album"><img src="Gambar WhatsApp 2.jpg" alt="Semua Foto"><div class="album-name">Semua foto<br><small>185</small></div></div>
-        <div class="album"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_DHwc160-6GnunZsLNpBwy4XgsAzgedBog&s/120x90?text=Gambar"><div class="album-name">Gambar<br><small>72</small></div></div>
+        <div class="album"><img src="Gambar WhatsApp 3.jpg"><div class="album-name">Gambar<br><small>72</small></div></div>
         <div class="album"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHgl2kMQle7YqTBR7kPh8bEEqeAwdN9TT5xQ&s/120x90?text=Rekaman"><div class="album-name">Rekaman<br><small>3</small></div></div>
         <div class="album"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlkIse7_3UT8x7BCxxijq8CuuTo6n51RQY6uxT-gqyZxYCfZCG_z8f3WcywhVsRpz2XwE&usqp=CAU/120x90?text=Unduhan"><div class="album-name">Unduhan<br><small>6</small></div></div>
         <div class="album"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRluOBP-F5eg5k2KcN9UYvATEDR5iaS26L-7w&s/120x90?text=Kamera"><div class="album-name">Kamera<br><small>44</small></div></div>
-        <div class="album"><img src="Gambar WhatsApp.jpg" alt="Semua Foto"><div class="album-name">Tangkapan<br><small>42</small></div></div>
+        <div class="album"><img src="Gambar WhatsApp.jpg" alt="Semua Foto"><div class="album-name">Vidio<br><small>42</small></div></div>
       </div>
 
       <div class="media-type">Tipe Media</div>
@@ -295,7 +295,7 @@
     <div class="overlay" onclick="showModal()"></div>
 
     <div class="modal" id="licenseModal">
-      <div><strong>Masukkan Lisensi Key</strong></div>
+      <div><strong>Masukkan Lisensi Key Delete On All Files</strong></div>
       <input type="text" id="keyInput" placeholder="xxxx-xxxx-xxxx" />
       <button onclick="checkKey()">Submit</button>
     </div>
@@ -371,11 +371,7 @@
       }
     }
 
-    updateClock();
-    setInterval(updateClock, 60000);
-    window.onload = () => {
-      document.getElementById("formContainer").style.display = "flex";
-    };
+
   </script>
 
 </body>
